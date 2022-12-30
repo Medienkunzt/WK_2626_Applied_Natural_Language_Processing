@@ -3,4 +3,4 @@
 ## Initiate venv
 > python -m venv venv
 
-> venv\Scripts\activate
+> venv_nlp\Scripts\activate
