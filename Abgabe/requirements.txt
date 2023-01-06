@@ -1,8 +1,9 @@
-re
 transformers
-matplotlib.pyplot
+matplotlib
 nltk
-csv
-math
-nltk.tokenize
 pandas
+numpy
+Word2Vec
+datasets
+sklearn
+evaluate
