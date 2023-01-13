@@ -12,5 +12,7 @@ conda activate transformer_env
 conda deactivate
 
 conda install -c anaconda ipykernel
+conda install -c conda-forge ipywidgets
 conda install -c huggingface transformers
+conda install -c conda-forge sentencepiece
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
