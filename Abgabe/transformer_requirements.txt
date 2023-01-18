@@ -1,11 +1,11 @@
 conda create --name transformer_env
 
-deactivate
+conda activate transformer_env
 conda deactivate
 
 conda install -c anaconda ipykernel
 conda install -c conda-forge ipywidgets
-conda install -c huggingface transformers
+conda install -c huggingface huggingface_hub transformers
 conda install -c conda-forge sentencepiece
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 conda install -c anaconda thinc
